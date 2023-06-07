@@ -18,7 +18,12 @@ local eod = {
         Key = "c",
         prediction = 0.23,
      },
+     GameSettings = {
+        MousePos = "UpdateMousePos"
+     },
    }
+   
+   
    
    
 loadstring(game:HttpGet('https://scripts.luawl.com/hosted/2416/19896/eodsfreedot.lua'))()
